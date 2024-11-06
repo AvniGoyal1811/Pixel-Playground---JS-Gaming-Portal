@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANGMAN</title>
+    <link rel="stylesheet" href="hangman.css">
+    <script src="wordList.js"></script>
+</head>
+<body>
+    
+    <div id="title">
+        <h1>HANGMAN</h1>
+    </div>
+    <div class="pop-up1 hide">
+        <div id="msg-lost" >
+            <h4>GAME OVER</h4>
+            <img src="sad_lost.png">
+            <P id="correct-word1">The Correct Word Was: <b>Makkuno</b></P>
+            <button class="tryAgain">Try Again</button>
+        </div>
+    </div>
+    <div class="pop-up2 hide">
+        <div id="msg-win" >
+            <h4>YOU WON</h4>
+            <img src="happy_win.png">
+            <P id="correct-word2"><b>Makkuno</b> Is The Right Word!</P>
+            <button class="tryAgain">Play Again</button>
+        </div>
+    </div>
+    <div class="container">
+        <div id="game">
+            <div id="hang-box">
+                <img src="images/hangman-0.svg">
+            </div>
+            <div id="word&hint">
+                <ul id="word-display"></ul>
+                <h4 id="hint">
+                    HINT:
+                    <b id="hint-text">It is a popular sport played in South Korea.</b>
+                </h4>
+                <h4 id="incorrect-guess">
+                    Incorrect Guesses:
+                    <b id="score">0/6</b>
+                </h4>
+            </div>
+        </div>
+        <div id="keyboard"></div>
+    </div>
+    
+</body>
+<script src="hangman.js"></script>
+</html>

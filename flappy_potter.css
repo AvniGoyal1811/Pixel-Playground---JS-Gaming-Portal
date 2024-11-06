@@ -1,0 +1,34 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: black;
+    /*background-color: #36250e;*/
+}
+h1 {
+    font-size: 80px;
+    font-weight: 500;
+    color: rgb(190, 190, 190);
+}
+
+#board {
+    background-image: url("background_1.png");
+    margin-top: 50px;
+    
+}
+#reset:active{
+    border-width: 3px;
+}
+#reset {
+    height:65px;
+    width: 130px;
+    background-color: #2b3a5f;
+    color:rgb(190, 190, 190);
+    border: 1PX SOLID rgb(190, 190, 190);
+    box-shadow: 0 0 1rem rgba(0, 0. 0, 0.4);
+    font-size: 23px;
+    font-weight: 200;
+    margin-top: 40PX;
+    font-family:'Times New Roman', Times, serif;
+}
+
+

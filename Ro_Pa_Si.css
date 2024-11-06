@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #f7f2e8;
+    text-align: center;
+}
+
+h1{
+    color: rgb(132, 127, 211);
+    font-size: 4.5rem;
+    font-weight: 900;
+    text-align: center;
+    height:5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 5rem;
+    padding-top: 40px;
+    padding-top: 50px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+
+.choice:hover{
+    opacity: 0.5;
+}
+
+#rock{
+    height: 250px;
+    width:300px;
+}
+#paper {
+    height: 350px;
+    width: 350px;
+}
+
+#S {
+    height:230px;
+    width: 250px;
+    object-fit:cover;
+}
+
+#R {
+    height:200px;
+    width: 280px;
+    object-fit: cover;
+}
+
+#P {
+    height:300px;
+    width: 380px;
+    object-fit: cover;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    gap: 5rem;
+}
+
+
+#your-score, 
+#comp-score {
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 5rem;
+}
+
+#msg {
+    background-color: rgb(132, 127, 211);
+    color: #f7f2e8;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
